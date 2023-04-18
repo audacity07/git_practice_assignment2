@@ -7,7 +7,7 @@ for (i = 1; i <= num; i++) {
   }
 }
 if (count === 2) {
-  console.log("This is a prim number");
+  console.log("This is a prime number");
 } else {
-  console.log("This is not a prim number");
+  console.log("This is not a prime number");
 }
