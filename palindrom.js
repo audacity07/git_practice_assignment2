@@ -1,13 +1,13 @@
-// Check whether a string is a palindrome or not.
+// Check whether a string is a Palindrome or not.
 
-let str = "racecar";
+let str = "RACECAR";
 
 let bag = "";
 for (let i = str.length - 1; i >= 0; i--) {
   bag = bag + str[i];
 }
 if (bag === str) {
-  console.log("This String is a palindrom");
+  console.log("This String is a Palindrom");
 } else {
-  console.log("This String is not a panlindrom");
+  console.log("This String is not a Panlindrom");
 }
