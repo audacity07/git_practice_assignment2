@@ -9,5 +9,5 @@ for (let i = str.length - 1; i >= 0; i--) {
 if (bag === str) {
   console.log("This String is a Palindrome");
 } else {
-  console.log("This String is not a Panlindrome");
+  console.log("This String is not a Palindrome");
 }
